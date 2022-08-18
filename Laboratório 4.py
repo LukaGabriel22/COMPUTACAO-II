@@ -22,13 +22,9 @@ def elementos_distintos(elementos):
     list -> int"""
     return len(set(elementos))
 
-def testa_elementos_distintos():#Testes da função elementos_distintos
->>> elementos_distintos([1,2,3,1,2,3,4,5])
-5
->>> elementos_distintos([1,1,2,2,3,3,4,4,5,5,6,6,7,8,9])
-9
 
 # QUESTÃO 5.
+
 def resistor(cor1,cor2,cor3):
     """Recebe 3 strings que representam cores do código de um resistor, retorna 
     o valor da resistência baseado nos códigos de cores.
